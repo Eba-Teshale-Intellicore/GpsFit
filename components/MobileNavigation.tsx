@@ -7,7 +7,7 @@ import { navItems } from "@/lib/constants";
 import Link from "next/link";
 
 export default function MobileNavigation(){
-    const [isOpen, setIsOpen] = useState()
+    const [isOpen, setIsOpen] = useState(false)
     return <>
     <div className="flex">
         <ThemeToggle/>
