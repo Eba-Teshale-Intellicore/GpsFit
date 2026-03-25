@@ -14,7 +14,7 @@ const oswald = Oswald({
 });
 
 export const metadata: Metadata = {
-  title: "Fitnes",
+  title: "GpsFit",
   description: "This is my first Description for Next Js",
   icons: {
     icon: "/fitness.png",
