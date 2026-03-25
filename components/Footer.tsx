@@ -35,7 +35,7 @@ export default function Footer(){
                         {/* {["Home", "About", "Programs", "Pricing", "Contact"].map((link) => ( */}
                         {navItems.map((link) => (
                             <li key={link.name}>
-                                <Link href="#"
+                                <Link href={link.href}
                                 className="hover:text-primary transition-colors duration-300">
                                 {link.name}
                                 </Link>
