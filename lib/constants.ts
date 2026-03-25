@@ -1,11 +1,12 @@
 import { describe } from "node:test";
 
 export const navItems = [
-    { name: "Home", href: "#" },
-    { name: "Programs", href: "#" },
-    { name: "About", href: "#" },
-    { name: "Pricing", href: "#" },
-    { name: "Contact", href: "#" }
+  { name: "Home", href: "#home" },
+  { name: "Programs", href: "#programs" },
+  { name: "About", href: "#about" },
+  { name: "Pricing", href: "#pricing" },
+  { name: "Testimonials", href: "#testimonials" },
+  { name: "Contact", href: "#contact" }
 ];
 
 const BASE_URL = "http://127.0.0.1:5000";

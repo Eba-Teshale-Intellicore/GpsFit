@@ -1,16 +1,15 @@
+"use client";
 import * as motion from "motion/react-client"
 
 import { programs } from "@/lib/constants";
-import { div, p } from "motion/react-client";
 import Image from "next/image";
 import { Card, CardContent } from "./ui/card";
-import { Key } from "lucide-react";
 import { Button } from "./ui/button";
 
 export default function Programs() {
     return (
         <>
-            <section className="py-20 border">
+            <section className="py-20 border" id="programs">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-16">
                         <motion.h2 
@@ -40,7 +39,7 @@ export default function Programs() {
                                         viewport={{ once: true }}
                                         transition={{ duration: 0.7, ease: "easeOut", delay: index * 0.2}}
                                         whileHover={{scale: 1.02}}
-                            key= {program.title} className="group cursor-pointer">
+                            key= {index} className="group cursor-pointer">
                                 <Card className="p-0 transition-shadow duration-300 hover:shadow-2xl">
                                     <div className="relative overflow-hidden rounded-t-lg w-full h-70 md:h-70 lg:h-90">
                                     <Image 

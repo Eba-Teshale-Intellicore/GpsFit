@@ -31,7 +31,7 @@ export default function WhyChooseUs(){
         }
     ];
     return <>
-    <section className=" relative py-20 bg-primary-foreground min-h-screen">
+    <section className=" relative py-20 bg-primary-foreground min-h-screen" id="about">
         <div className="absolute w-60 h-full md:w-140 md:h-200 lg:w-170 lg:h-160 rounded-b-full bg-primary/10 text-primary top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></div>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 

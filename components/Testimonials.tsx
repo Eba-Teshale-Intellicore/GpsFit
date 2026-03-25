@@ -7,7 +7,7 @@ import { Star } from "lucide-react";
 export default function Testimonials(){
     const Max_Stars = 5
     return <>
-    <section className=" relative py-20 min-h-screen border-2">
+    <section className=" relative py-20 min-h-screen border-2" id="testimonials">
             {/* <div className="absolute w-60 h-full md:w-140 md:h-200 lg:w-170 lg:h-160 rounded-b-full bg-primary/10 text-primary top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></div> */}
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     

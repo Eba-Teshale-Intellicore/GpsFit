@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Button } from "./ui/button";
 import { useEffect, useState } from "react";
 import ThemeToggle from "./ThemeToggle";
+import MobileNavigation from "./MobileNavigation";
 
 
 export default function Navbar(){
@@ -49,6 +50,10 @@ export default function Navbar(){
                                 </Button>
                             </Link>
                         ))}
+                    </div>
+                    {/* Mobile Navigation  */}
+                    <div className="md:hidden">
+                        <MobileNavigation/>
                     </div>
                 </div>
             </div>

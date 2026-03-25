@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 import * as motion from "motion/react-client"
 export default function Hero() {
     return (
-        <section className="h-screen relative flex items-center justify-center overflow-hidden ">
+        <section className="h-screen relative flex items-center justify-center overflow-hidden" id="">
             <div className="absolute inset-0">
             <Image 
                 src="/fitness.png"
