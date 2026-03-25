@@ -103,7 +103,7 @@ export const plans = [
   },
   {
     name: "Pro",
-    price: "9.99",
+    price: "500.99",
     sign: "Br",
     period: "per month",
     description: "Best for individuals serious about fitness.",
@@ -119,7 +119,7 @@ export const plans = [
   },
   {
     name: "Elite",
-    price: "19.99",
+    price: "999.99",
     sign: "Br",
     period: "per month",
     description: "For those who want maximum results and coaching.",
