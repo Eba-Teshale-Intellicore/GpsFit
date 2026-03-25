@@ -1,3 +1,4 @@
+import { navItems } from "@/lib/constants";
 import { Github, Instagram, Youtube } from "lucide-react";
 import Link from "next/link";
 
@@ -31,11 +32,12 @@ export default function Footer(){
                 <div>
                     <h3 className="text-2xl font-black font-heading mb-6">Quick Link</h3>
                     <ul className="space-y-4">
-                        {["Home", "About", "Programs", "Pricing", "Contact"].map((link) => (
-                            <li key={link}>
+                        {/* {["Home", "About", "Programs", "Pricing", "Contact"].map((link) => ( */}
+                        {navItems.map((link) => (
+                            <li key={link.name}>
                                 <Link href="#"
                                 className="hover:text-primary transition-colors duration-300">
-                                {link}
+                                {link.name}
                                 </Link>
                             </li>
                         ))}
